@@ -1,0 +1,16 @@
+//
+// Created by 202106 on 2021/11/18.
+//
+
+#ifndef _AUDIO_AUDIO_SERVICE_COMMON_H__
+#define _AUDIO_AUDIO_SERVICE_COMMON_H__
+
+#include "audio_player/common.h"
+
+typedef enum {
+    AUDIO_SERVICE_ON_NEW_AUDIO_SOURCE_ARRIVED = 1,
+    AUDIO_SERVICE_ON_NEW_AUDIO_SOURCE_PROCESSING = 2,
+    AUDIO_SERVICE_ON_NEW_AUDIO_SOURCE_FINISHED = 3,
+} AudioServiceEvent;
+
+#endif //_AUDIO_AUDIO_SERVICE_COMMON_H__
